@@ -1,5 +1,10 @@
-<% provide :title, t(".page") %>
-<p>
-    <%= link_to t(".name_book"), href="http://www.railstutorial.org/" %>
-    <%= t ".status" %>
-</p>
+<% provide :title%>
+<body>
+  <h1><%= t ".title" %></h1>
+  <p>
+    <%= link_to t ".linktohome"%><%= t ".linkname" %>
+  </p>
+  <%= link_to (t ".linkhelp"), "/static_pages/help" %>
+  <%= link_to (t ".linkabout"), "/static_pages/about" %>
+  <%= link_to (t ".linkcontact"), "/static_pages/contact "%><br>
+</body>

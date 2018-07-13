@@ -1,17 +1,29 @@
 en:
   static_pages:
-    about:
-      page: "About"
-      name_book: "Ruby on Rails Tutorial"
-      is_a: "is a"
-      status: "one book"
-      address: "Address"
-      full_name: "Full name"
     home:
-      page: "Home"
-      name_book: "Ruby on Rails Tutorial"
-      status: "is nice"
+      title: "Home"
+      linktohome: "This is the home page for the "
+      linkname: "Ruby on Rails Tutorial"
+      linkabout: "About"
+      linkcontact: "Contact"
+      linkhelp: "Help"
+    about:
+      title: "About"
+      linktohome: "This is the book page for"
+      linkname: "Ruby on Rails Tutorial"
+      linktobook: "Ruby on Rails Tutotial "
+      linkscreencast: "Link to Screen Cast"
     contact:
-      page: "Contact"
+      title: "Contact"
+      linktocontact: "This is the Contact page "
+      linkname: "Contact page"
     help:
-      page: "Help"
+      title: "Help"
+      linktohelp: "This is the Help page for the "
+      linkname: "Ruby on Rails Tutorial"
+      linknamehelp: "Help page"
+      linktobook1: "Link to Book"
+  page_title: "Ruby on Rails Tutorial App"
+  hello: "Hello world"
+  langenglish: "English"
+  langvietnam: "Vietnamese"
