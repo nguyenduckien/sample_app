@@ -1,17 +1,29 @@
 vi:
   static_pages:
-    about:
-      page: "Về chúng tôi"
-      name_book: "Ruby on Rails Tutorial"
-      is_a: "là"
-      status: "một cuốn sách tốt"
-      address: "Address"
-      full_name: "Full name"
     home:
-      page: "Trang chủ"
-      name_book: "Ruby on Rails Tutorial"
-      status: "rất tốt"
+      title: "Trang chủ"
+      linktohome: "Đây là đường dẫn tới trang chủ "
+      linkname: "Ruby on Rails Tutorial"
+      linkabout: "Giới thiệu"
+      linkcontact: "Liên hệ"
+      linkhelp: "Giúp đỡ"
+    about:
+      title: "Giới thiệu"
+      linktohome: "Đây là đường dẫn tới trang chủ "
+      linktobook: "Đây là đường dẫn tới trang book "
+      linkname: "Ruby on Rails Tutorial"
+      linkscreencast: "Đường dẫn tới Screen Cast"
     contact:
-      page: "Liên hệ"
+      title: "Liên hệ"
+      linktocontact: "Đây là đưòng dẫn tới trang Liên hệ "
+      linkname: "Liên hệ"
     help:
-      page: "Giúp đỡ"
+      title: "Giúp đỡ"
+      linktohelp: "Đây là đường dẫn cho trang Giúp đỡ "
+      linkname: "Ruby on Rails Tutorial"
+      linknamehelp: "Giúp đỡ"
+      linktobook1: "Đây là đường dẫn tới book"
+  page_title: "Ung Dung Ruby on Rails Tutorial"
+  hello: "Xin chào"
+  langenglish: "Tiếng Anh"
+  langvietnam: "Tiếng Việt"
