@@ -1,10 +1,15 @@
 <% provide :title%>
 <body>
-  <h1><%= t ".title" %></h1>
-  <p>
-    <%= link_to t ".link_to_home"%><%= t ".link_name" %>
-  </p>
-  <%= link_to (t ".link_help"), "/static_pages/help" %>
-  <%= link_to (t ".link_about"), "/static_pages/about" %>
-  <%= link_to (t ".link_contact"), "/static_pages/contact "%><br>
+  <div class="center jumbotron">
+    <h1><%= t ".title" %></h1>
+    <p>
+      <%= link_to t(".link_to_home")%><%= t ".link_name" %>
+    </p>
+    <%= link_to t(".link_help"), help_path %> |
+    <%= link_to t(".link_about"), about_path %> |
+    <%= link_to t(".link_contact"), contact_path %><br>
+    <%= link_to t("signup"), "#" , class: "btn btn-lg btn-primary" %>
+  </div>
+  <%= link_to image_tag("kitten.jpg", alt: "Kitten Image"), "http://rubyonrails.org/" %><br>
+  <%= link_to image_tag("rails.png", alt: "Rails logo"), "http://rubyonrails.org/" %><br>
 </body>

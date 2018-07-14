@@ -2,7 +2,7 @@ en:
   static_pages:
     home:
       title: "Home"
-      link_to__home: "This is the home page for the "
+      link_to__home: "This is the home page for the"
       link_name: "Ruby on Rails Tutorial"
       link_about: "About"
       link_contact: "Contact"
@@ -12,10 +12,10 @@ en:
       link_to_home: "This is the book page for"
       link_name: "Ruby on Rails Tutorial"
       link_to_book: "Ruby on Rails Tutotial "
-      link_screencast: "Link to Screen Cast"
+      link_screencast: "Screencast series"
     contact:
       title: "Contact"
-      link_to_contact: "This is the Contact page "
+      link_contact: "This is the Contact page "
       link_name: "Contact page"
     help:
       title: "Help"
@@ -27,3 +27,15 @@ en:
   hello: "Hello world"
   lang_english: "English"
   lang_vietnam: "Vietnamese"
+  title_home: "Home"
+  title_about: "About"
+  title_contact: "Contact"
+  title_help: "Help"
+  title_app: "Sample App"
+  login: "Login"
+  link_rails_tutorial: "Ruby on Rails Tutorial "
+  by: "by "
+  the: "The "
+  michael: "Michael Hartl "
+  news: "News"
+  signup: "Sign Up"
