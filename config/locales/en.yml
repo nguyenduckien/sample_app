@@ -2,7 +2,7 @@ en:
   static_pages:
     home:
       title: "Home"
-      link_to__home: "This is the home page for the"
+      link_to_home: "This is the home page for the"
       link_name: "Ruby on Rails Tutorial"
       link_about: "About"
       link_contact: "Contact"
