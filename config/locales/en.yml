@@ -39,3 +39,22 @@ en:
   michael: "Michael Hartl "
   news: "News"
   signup: "Sign Up"
+  create_user: "Create user suscess"
+  something: "Can not find anything"
+  users:
+    new:
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_confirmation: "Password Confirmation"
+      signup: "Sign Up"
+      detail: "This will be a singup page for new users."
+      warning: "Please enter!"
+      submit: "Create my accout"
+    login:
+      title_login: "Login"
+      detail: "This is page login"
+    shared:
+      _error_messages:
+        error: "error"
+        inform_error: "The form contains"
