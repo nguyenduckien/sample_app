@@ -23,6 +23,9 @@ en:
       link_name: "Ruby on Rails Tutorial"
       link_name_help: "Help page"
       link_to_book1: "Link to Book"
+  navbar_users: "Users"
+  account: "Account"
+  confirm: "confirmation"
   page_title: "Ruby on Rails Tutorial App"
   hello: "Hello world"
   lang_english: "English"
@@ -38,7 +41,17 @@ en:
   the: "The "
   michael: "Michael Hartl "
   news: "News"
-  signup: "Sign Up"
+  page_signup: "Sign up"
+  page_login: "Log in"
+  page_logout: "Log out"
+  create_user: "Create user suscess"
+  something: "Can not find anything"
+  new_user: "New user?"
+  btn_sign_up_now: "Sign up now!"
+  profile: "Profile"
+  setting: "Setting"
+  login_fail: "Invalid email/password combination"
+  btn_create_account: "Create my account"
   users:
     new:
       name: "Name"
@@ -52,8 +65,7 @@ en:
     login:
       title_login: "Login"
       detail: "This is page login"
-      create_user: "Create user suscess"
     shared:
       _error_messages:
-        error: "error"
-        inform_error: "The form contains"
+  error: "error"
+  inform_error: "The form contains"

@@ -6,14 +6,31 @@
 </header>
 <header class="navbar navbar-fixed-top navbar-inverse">
   <div class="container">
-    <%= link_to (t "title_app"), "#", id: "logo" %>
+    <%= link_to t("title_app"), "#", id: "logo" %>
     <nav>
       <ul class="nav navbar-nav navbar-right">
         <li><%= link_to t("title_home"), root_path %></li>
         <li><%= link_to t("title_about"), about_path %></li>
         <li><%= link_to t("title_contact"), contact_path %></li>
         <li><%= link_to t("title_help"), help_path %></li>
-        <li><%= link_to t("login"), login_path %></li>
+        <% if logged_in? %>
+          <li><%= link_to t("navbar_users"), "#" %></li>
+          <li class="dropdown">
+            <%= link_to "#", class:"dropdown-toggle", data: {toggle:"dropdown"} do %>
+            <%= t "account"%> <b class="caret"></b>
+            <% end %>
+            <ul class="dropdown-menu">
+              <li><%= link_to t("profile"), current_user %></li>
+              <li><%= link_to t("setting"), "#" %></li>
+              <li class="divider"></li>
+              <li>
+                <%= link_to t("page_logout"), logout_path, method: :delete %>
+              </li>
+            </ul>
+          </li>
+        <% else %>
+          <li><%= link_to t("page_login"), login_path %></li>
+        <% end %>
         <li><%= link_to t("lang_english"), locale: "en" %></li>
         <li><%= link_to t("lang_vietnam"), locale: "vi" %></li>
       </ul>
