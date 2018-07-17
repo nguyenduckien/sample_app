@@ -44,10 +44,17 @@ en:
   page_signup: "Sign up"
   page_login: "Log in"
   page_logout: "Log out"
+  page_edit: "Edit account"
   create_user: "Create user suscess"
   something: "Can not find anything"
   new_user: "New user?"
   btn_sign_up_now: "Sign up now!"
+  btn_update_account: "Save change"
+  question_before_del_user: "You sure?"
+  require_login: "Please login"
+  del_user: "Delete user"
+  all_user: "All user"
+  change: "Change"
   remember_me: "Remember me"
   profile: "Profile"
   setting: "Setting"
@@ -70,3 +77,21 @@ en:
       _error_messages:
   error: "error"
   inform_error: "The form contains"
+  hello: "Hello world"
+  views:
+    pagination:
+      first: "« FIRST"
+      last: "LAST »"
+      previous: "‹ PREV"
+      next: "NEXT ›"
+      truncate: "…"
+  helpers:
+    page_entries_info:
+      one_page:
+        display_entries:
+          zero: "No %{entry_name} found"
+          one: "Displaying <b>1</b> %{entry_name}"
+          other: "Displaying <b>all %{count}</b> %{entry_name}"
+      more_pages:
+        display_entries: "Displaying %{entry_name}
+          <b>%{first} - %{last}</b> of <b>%{total}</b> in total"
