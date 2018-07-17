@@ -51,6 +51,7 @@ vi:
   something: "Không tìm thấy"
   new_user: "Tài khoản mới?"
   btn_sign_up_now: "Đăng nhập ngay!"
+  remember_me: "Nhớ mật khẩu"
   profile: "Hồ sơ"
   setting: "Cài đặt"
   login_fail: "Email hoặc mật khẩu sai"
