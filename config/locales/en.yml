@@ -48,6 +48,7 @@ en:
   something: "Can not find anything"
   new_user: "New user?"
   btn_sign_up_now: "Sign up now!"
+  remember_me: "Remember me"
   profile: "Profile"
   setting: "Setting"
   login_fail: "Invalid email/password combination"
