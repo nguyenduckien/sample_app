@@ -1,16 +1,12 @@
 class SessionsController < ApplicationController
   def new; end
 
-  def remember
-    params[:session][:remember_me] == "1" ? remember(user) : forget(user)
-  end
-
   def create
     user = User.find_by email: params[:session][:email].downcase
     if user&.authenticate params[:session][:password]
       log_in user
-      SessionsController.remember
-      redirect_to user
+      params[:session][:remember_me] == "1" ? remember(user) : forget(user)
+      redirect_back_or user
     else
       flash.now[:danger] = t("login_fail")
       render :new
