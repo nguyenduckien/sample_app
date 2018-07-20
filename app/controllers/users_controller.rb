@@ -9,10 +9,7 @@ class UsersController < ApplicationController
   end
 
   def show
-    @user = User.find_by id: params[:id]
-    return if @user
-    flash[:danger] = t("something")
-    redirect_to root_path
+    redirect_to(root_url) unless @user
   end
 
   def edit; end
@@ -42,9 +39,9 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_params
     if @user.save
-      log_in @user
-      flash[:success] = t("create_user")
-      redirect_to @user
+      @user.send_activation_email
+      flash[:info] = t "require_check_email"
+      redirect_to root_url
     else
       render :new
     end
